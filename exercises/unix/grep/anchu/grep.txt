@@ -1,0 +1,23 @@
+grep -iw x.... ../grepdata.txt
+
+grep "^[0-9]\{3\} " ../grepdata.txt
+
+grep "[A-z]\{3\}\. [0-3][0-9], 20[0-1][0-9]" ../grepdata.txt
+
+grep "\([aieou]\).\1" ../grepdata.txt
+
+grep -v ^S ../grepdata.txt
+
+
+
+grep -i CA ../grepdata.txt
+
+grep -n @ ../grepdata.txt
+
+grep -v Sep. ../grepdata.txt
+
+grep -v Sep. ../grepdata.txt
+
+
+
+
